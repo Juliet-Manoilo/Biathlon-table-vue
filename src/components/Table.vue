@@ -26,6 +26,7 @@
         field="shooting"
         label="Time range in seconds"
         numeric
+        sortable
         centered
         width="300"
         v-slot="props"
@@ -36,6 +37,7 @@
         field="speed"
         label="Speed in seconds"
         numeric
+        sortableп
         centered
         width="250"
         v-slot="props"
