@@ -4,19 +4,20 @@
       <b-table-column
         field="rank"
         label="Rank"
-        width="40"
+        width="90"
         sortable
         numeric
         v-slot="props"
       >
         {{ props.row.rank }}
       </b-table-column>
+
       <b-table-column
         field="name"
         label="Name"
         sortable
-        centered
-        width="600"
+        searchable
+        width="300"
         v-slot="props"
       >
         {{ props.row.name }}
