@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <h1 class="title is-2">Biathlon Data Table</h1>
     <Table />
   </div>

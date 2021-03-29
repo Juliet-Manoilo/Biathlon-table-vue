@@ -1,4 +1,4 @@
-<template>
+<template >
   <div class="table is-hoverable">
     <b-table :data="biathlonData">
       <b-table-column
@@ -24,7 +24,7 @@
       </b-table-column>
       <b-table-column
         field="shooting"
-        label="Shooting percentage"
+        label="Time range in seconds"
         numeric
         centered
         width="250"
@@ -48,9 +48,9 @@
 
 <script>
 import { biathlonData } from "./data.js";
+
 export default {
   name: "Table",
-  components: {},
   data() {
     return {
       biathlonData,
