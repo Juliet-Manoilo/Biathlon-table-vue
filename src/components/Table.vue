@@ -56,7 +56,6 @@ export default {
       biathlonData,
     };
   },
-  props: {},
 };
 </script>
 
