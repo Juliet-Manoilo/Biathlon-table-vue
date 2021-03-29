@@ -37,7 +37,7 @@
         field="speed"
         label="Speed in seconds"
         numeric
-        sortableп
+        sortable
         centered
         width="250"
         v-slot="props"
