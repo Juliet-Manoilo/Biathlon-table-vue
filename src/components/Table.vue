@@ -27,7 +27,7 @@
         label="Time range in seconds"
         numeric
         centered
-        width="250"
+        width="300"
         v-slot="props"
       >
         {{ props.row.shooting }}
